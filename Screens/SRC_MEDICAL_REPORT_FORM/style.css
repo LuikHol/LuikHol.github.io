@@ -54,3 +54,13 @@ fieldset:first-of-type {
     border: none;
     cursor: pointer;
   }
+
+  .botao-voltar {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #610800;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
