@@ -1,81 +1,56 @@
-body {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /*background: url('img/fundo.png') center/cover no-repeat;*/
-  height: 100vh;
-}
-
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.button {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  color: #000000;
-  background-color: #fcfcfc;
-  width: 200px;
-  height: 200px;
-  margin-right: 40px;
-  border-radius: 10px;
-  transition: background-color 0.3s ease;
-}
-
-.button:last-child {
-  margin-right: 0;
-}
-
-.button:hover {
-  background-color: #555;
-}
-
-.button img {
-  width: 100px;
-  height: 100px;
-}
-
-.button span {
-  margin-top: 10px;
-  text-align: center; /* Centraliza o texto horizontalmente */
-  font-size: 30px;
-}
-
-.menu-button {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  color: #000000;
-  background-color: #ffffff;
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  transition: background-color 0.3s ease;
-}
-
-.menu-button:hover {
-  background-color: #555;
-}
-
-.menu-button img {
-  width: 60px;
-  height: 60px;
-}
-
-.menu-button span {
-  margin-top: 10px;
-  text-align: center; /* Centraliza o texto horizontalmente */
-  font-size : 30px;
-}
+fieldset:first-of-type {
+    margin-bottom: 20px;
+  }
+  
+  fieldset:not(:first-of-type) {
+    margin-top: 20px;
+  }
+  
+  body {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    padding-top: 20px;
+  }
+  
+  form {
+    width: 80%;
+    max-width: 600px; /* Define a largura máxima para o formulário */
+    padding: 20px;
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  input[type="tel"],
+  textarea,
+  select {
+    width: 96%;
+    padding: 5px;
+    margin-top: 5px;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
