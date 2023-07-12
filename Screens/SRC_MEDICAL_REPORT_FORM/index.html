@@ -2,68 +2,70 @@
 <html>
 <head>
   <title>MEDICAL REPORT</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-  
   <form action="" method="get">
     <fieldset>
-    <legend>Odontologia:</legend>
-    <label for="nome">Nome do Usuário:</label>
-    <input type="text" id="nome" name="nome" required style="width: 300px;">
+      <legend>Odontologia:</legend>
 
+      <label for="nome">Nome do Usuário:</label>
+      <input type="text" id="nome" name="nome" required>
 
-    <label for="sexo">Sexo:</label>
-    <select id="sexo" name="sexo" required> 
-      <option value="masculino">Masculino</option>
-      <option value="feminino">Feminino</option>
-      <option value="outro">Outro</option>
-    </select> <br>
+      <label for="sexo">Sexo:</label>
+      <select id="sexo" name="sexo" required> 
+        <option value="" disabled selected>Selecione uma opção</option>
+        <option value="masculino">Masculino</option>
+        <option value="feminino">Feminino</option>
+        <option value="outro">Outro</option>
+      </select> <br>
 
-    <label for="cartao_do_sus">Cartão do SUS:</label>
-    <input type="number" id="cartao_do_sus" name="cartao_do_sus" required>
+      <label for="cartao_do_sus">Cartão do SUS:</label>
+      <input type="number" id="cartao_do_sus" name="cartao_do_sus" required>
 
-    <label for="cfp">CPF:</label>
-    <input type="text" id="cfp" name="cfp" required><br> 
+      <label for="cfp">CPF:</label>
+      <input type="text" id="cfp" name="cfp" required><br> 
 
-    <label for="data_nascimento">Data de Nascimento:</label>
-    <input type="date" id="data_nascimento" name="data_nascimento" required>
+      <label for="data_nascimento">Data de Nascimento:</label>
+      <input type="date" id="data_nascimento" name="data_nascimento" required>
 
-    <label for="idade">Idade:</label>
-    <input type="number" id="idade" name="idade" required><br>
+      <label for="idade">Idade:</label>
+      <input type="number" id="idade" name="idade" required><br>
 
-    <label for="nome_reponsavel">Nome Responsável:</label>
-    <input type="text" id="nome_reponsavel" name="nome_reponsavel" required><br>
+      <label for="nome_reponsavel">Nome Responsável:</label>
+      <input type="text" id="nome_reponsavel" name="nome_reponsavel" required><br>
 
-    <label for="telefone">Telefone:</label>
-    <input type="tel" id="telefone" name="telefone" required>
+      <label for="telefone">Telefone:</label>
+      <input type="tel" id="telefone" name="telefone" required>
 
-    <label for="endereco">Endereço:</label>
-    <input type="text" id="endereco" name="endereco" required><br>
+      <label for="endereco">Endereço:</label>
+      <input type="text" id="endereco" name="endereco" required><br>
 
-    <label for="bairro">Bairro:</label>
-    <input type="text" id="bairro" name="bairro" required><br> 
+      <label for="bairro">Bairro:</label>
+      <input type="text" id="bairro" name="bairro" required><br> 
 
-    <label for="justificativa_do_encaminhamento">Justificativa do Encaminhamento:</label><br>
-    <textarea id="justificativa_do_encaminhamento" name="justificativa_do_encaminhamento" required></textarea><br>
+      <label for="justificativa_do_encaminhamento">Justificativa do Encaminhamento:</label><br>
+      <textarea id="justificativa_do_encaminhamento" name="justificativa_do_encaminhamento" required></textarea><br>
 
-    <label for="assinatura_e_carimbo_profissional">Assinatura e Carimbo do Profissional:</label><br>
-    <input type="file" id="assinatura_e_carimbo_profissional" name="assinatura_e_carimbo_profissional" accept="image/*" required><br>
-   </fieldset>
-   <fieldset>
-    <legend>Encaminhando para:</legend>
-      <label for="nome">Unidade de Referencia:</label>
-      <label for="UE">CEO</label>
-      <input type="checkbox" id="UE" name="unidade_de_referencia" value="CEO"><br>
-      <input type="text" id="nome" name="nome" size="50" required><br>
-      <label for="nome">Especialidade:</label>
-      <input type="text" id="nome" name="nome" size="50" required>
-      <label for="data">Data:</label>
-      <input type="date" id="data" name="data" required><br>
       <label for="assinatura_e_carimbo_profissional">Assinatura e Carimbo do Profissional:</label><br>
       <input type="file" id="assinatura_e_carimbo_profissional" name="assinatura_e_carimbo_profissional" accept="image/*" required><br>
-   </fieldset>
+    </fieldset>
+    <fieldset>
+        <legend>Encaminhando para:</legend>
+          <label for="nome">Unidade de Referencia:</label>
 
+          <label for="UE">CEO</label>
+          <input type="checkbox" id="UE" name="unidade_de_referencia" value="CEO"><br>
+          <input type="text" id="nome" name="nome" size="50" required><br>
+          <label for="nome">Especialidade:</label>
+          <input type="text" id="nome" name="nome" size="50" required>
+
+          <label for="data">Data:</label>
+          <input type="date" id="data" name="data" required><br>
+
+          <label for="assinatura_e_carimbo_profissional">Assinatura e Carimbo do Profissional:</label><br>
+          <input type="file" id="assinatura_e_carimbo_profissional" name="assinatura_e_carimbo_profissional" accept="image/*" required><br>
+       </fieldset>
     <input type="submit" value="Enviar">
   </form>
 </body>
