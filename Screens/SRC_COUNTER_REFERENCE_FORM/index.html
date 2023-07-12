@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulário Hospitalar</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+  <form action="../SRC_PLACE_FOR_SUBMITTING_THE_COUNTER_REFERENCE_DENTAL_REGULATION_CENTER/index.html" method="get">
+  <fieldset>
+    <legend>Justificativa da Contra-Referencia</legend>
+    <input type="checkbox" id="alta" name="alta" size="50"/>
+    <label for="alta">Alta do Paciente</label>
+
+    <input type="checkbox" id="acompanhamento" size="15"/>
+    <label for="acompanhamento">Acompanhamento na Rede Básica</label><br>
+
+    <input type="checkbox" id="procedimentos-primarios" size="60"/>
+    <label for="procedimentos-secundarios">Realização de Procedimentos Primários</label>
+
+    <input type="checkbox" id="procedimentos-secundarios" size="22"/>
+    <label for="procedimentos-secundarios">Realização de Procedimentos Secundários</label>
+
+    <div class="procedures">
+      <h2 class="subtitle">Procedimentos Realizados no Prestador</h2>
+      <div class="form" min="0" max="100">
+        <textarea class="description" rows="5" placeholder="Descrição do procedimento"></textarea>
+        <textarea class="area" rows="5" placeholder="Dente/Área"></textarea>
+      </div>
+    </div>
+
+    <div class="procedures">
+      <h2 class="subtitle">Procedimentos a serem Realizados na Atenção Básica e Secundária</h2>
+      <div class="form" size="10">
+        <textarea class="description" rows="5" placeholder="Descrição do procedimento"></textarea>
+        <textarea class="area" rows="5" placeholder="Dente/Área"></textarea>
+      </div>
+    </div>
+  </fieldset>
+  <input type="submit" value="Continuar">
+  </form>
+</body>
+</html>

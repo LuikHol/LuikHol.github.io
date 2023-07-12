@@ -1,11 +1,13 @@
 body {
-  margin: 0;
-  padding: 0;
   display: flex;
   align-items: center;
   justify-content: center;
   background: url('img/fundo.png') center/cover no-repeat;
   height: 100vh;
+}
+
+form {
+  text-align: center;
 }
 
 .container {
