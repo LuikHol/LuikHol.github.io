@@ -2,24 +2,32 @@
 <html>
 <head>
   <title>Formulário Hospitalar</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
-  <form action="../SRC_PLACE_FOR_SUBMITTING_THE_COUNTER_REFERENCE_DENTAL_REGULATION_CENTER/index.html" method="get">
+<form action="../SRC_PLACE_FOR_SUBMITTING_THE_COUNTER_REFERENCE_DENTAL_REGULATION_CENTER/index.html" method="get">
   <fieldset>
     <legend>Justificativa da Contra-Referencia</legend>
-    <input type="checkbox" id="alta" name="alta" size="50"/>
-    <label for="alta">Alta do Paciente</label>
+    <label for="alta">
+      <input type="checkbox" id="alta" name="alta" size="50"/>
+      Alta do Paciente
+    </label>
 
-    <input type="checkbox" id="acompanhamento" size="15"/>
-    <label for="acompanhamento">Acompanhamento na Rede Básica</label><br>
+    <label for="acompanhamento">
+      <input type="checkbox" id="acompanhamento" size="15"/>
+      Acompanhamento na Rede Básica
+    </label>
 
-    <input type="checkbox" id="procedimentos-primarios" size="60"/>
-    <label for="procedimentos-secundarios">Realização de Procedimentos Primários</label>
+    <label for="procedimentos-primarios">
+      <input type="checkbox" id="procedimentos-primarios" size="60"/>
+      Realização de Procedimentos Primários
+    </label>
 
-    <input type="checkbox" id="procedimentos-secundarios" size="22"/>
-    <label for="procedimentos-secundarios">Realização de Procedimentos Secundários</label>
+    <label for="procedimentos-secundarios">
+      <input type="checkbox" id="procedimentos-secundarios" size="22"/>
+      Realização de Procedimentos Secundários
+    </label>
 
     <div class="procedures">
       <h2 class="subtitle">Procedimentos Realizados no Prestador</h2>
@@ -38,6 +46,7 @@
     </div>
   </fieldset>
   <input type="submit" value="Continuar">
-  </form>
+</form>
+<a class="botao-voltar" href="../SRC_COUNTER-REFERENCE_FORM/index.html">Voltar</a>
 </body>
 </html>
