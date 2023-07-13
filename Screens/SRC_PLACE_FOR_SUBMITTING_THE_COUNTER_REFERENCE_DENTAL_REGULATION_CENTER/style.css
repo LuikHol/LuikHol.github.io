@@ -7,7 +7,7 @@ fieldset:not(:first-of-type) {
 }
 
 body {
-  background-color: #333;
+  background-color: #252525;
   display: flex;
   justify-content: center;
   align-items: flex-start;
