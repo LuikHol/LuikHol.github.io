@@ -2,32 +2,33 @@
 <html>
 <head>
   <title>Formulário Hospitalar</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <h1 class="title">IV</h1>
+  <form action="../SRC_ ADJUSTMENT_SHEET_REF/index.html" method="get">
+    <fieldset>
+      <legend>IV:</legend>
+      <div class="form-group">
+        <label class="label">Nome do cirurgião-dentista solicitante:</label>
+        <input type="text" id="nome" name="nome" class="input" placeholder="Digite o nome do cirurgião-dentista">
+        <label class="label">CRO:</label>
+        <input type="text" class="input" placeholder="Digite o CRO">
+      </div>
 
-  <div class="form-group">
-    <label class="label">Nome do cirurgião-dentista solicitante:</label>
-    <input type="text" class="input" placeholder="Digite o nome do cirurgião-dentista">
-    <label class="label">CRO:</label>
-    <input type="text" class="input" placeholder="Digite o CRO">
-  </div>
+      <div class="form-group">
+        <label class="label">Assinatura:</label>
+        <input type="file" id="assinatura" name="assinatura" accept="image/*" required><br>
+        <label class="label">Data:</label>
+        <input type="date" class="input" placeholder="Digite a data">
+      </div>
 
-  <div class="form-group">
-    <label class="label">Assinatura:</label>
-    <input type="text" class="input" placeholder="Digite a assinatura">
-    <label class="label">Data:</label>
-    <input type="text" class="input" placeholder="Digite a data">
-  </div>
-
-  <div class="form-group">
-    <label class="label">Carimbo:</label>
-    <input type="text" class="input" placeholder="Digite o carimbo">
-  </div>
-
-  <button class="conclude-button" onclick="redirectToPage()">Concluir</button>
-
-  <script src="script.js"></script>
+      <div class="form-group">
+        <label class="label">Carimbo:</label>
+        <input type="file" id="carimbo" name="carimbo" accept="image/*" required><br>
+      </div>
+    </fieldset>
+    <input type="submit" value="Cotinuar">
+  </form>
+  <a class="botao-voltar" href="../SRC_PLACE_FOR_SUBMITTING_THE_COUNTER_REFERENCE_DENTAL_REGULATION_CENTER/index.html">Voltar</a>
 </body>
 </html>
