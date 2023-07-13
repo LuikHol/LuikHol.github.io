@@ -7,7 +7,7 @@ fieldset:not(:first-of-type) {
 }
 
 body {
-  background-color: #333;
+  background-color: #252525;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -73,10 +73,4 @@ input[type="submit"] {
   color: white;
   text-decoration: none;
   border-radius: 5px;
-}
-
-.menu-button span {
-  margin-top: 10px;
-  text-align: center; 
-  font-size : 25px;
 }
