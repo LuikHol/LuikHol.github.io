@@ -40,7 +40,7 @@ section {
 section .signin {
     position: absolute;
     width: 400px;
-    background: #ece9e9;
+    background-color: #c1ffef;
     z-index: 1000;
     display: flex;
     justify-content: center;
@@ -82,7 +82,7 @@ section .signin .content .form .inputBox {
 section .signin .content .form .inputBox input {
     position: relative;
     width: 100%;
-    background: #dfdbdb;
+    background-color: #aff2e1;
     border: none;
     outline: none;
     padding: 25px 10px 7.5px;
@@ -97,7 +97,7 @@ section .signin .content .form .inputBox i {
     left: 0;
     padding: 15px 10px;
     font-style: normal;
-    color: #a59898;
+    color: #888080;
     transition: 0.5s;
     pointer-events: none;
 }
@@ -106,7 +106,7 @@ section .signin .content .form .inputBox i {
 .signin .content .form .inputBox input:valid ~ i {
     transform: translateY(-7.5px);
     font-size: 0.8em;
-    color: #000000;
+    color: #373333;
 }
 
 .signin .content .form .links {
@@ -140,7 +140,7 @@ section .signin .content .form .inputBox i {
 
 .signin .content .form .inputBox input[type="submit"] {
     padding: 10px;
-    background: rgb(65, 209, 156);
+    background-color: rgb(44, 188, 157);
     color: #ffffff;
     font-weight: 600;
     font-size: 1.35em;
@@ -181,7 +181,7 @@ input[type="submit"]:active {
     justify-content: center;
     text-decoration: none;
     color: #000000;
-    background-color: rgb(65, 209, 156);
+    background-color: rgb(44, 188, 157);
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -189,7 +189,7 @@ input[type="submit"]:active {
 }
   
   .menu-button:hover {
-    background-color: #00cf80;
+    background-color: #12cf8d;
 }
   
   .menu-button span {
@@ -208,7 +208,7 @@ input[type="submit"]:active {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
-    background-image: linear-gradient(rgb(255, 255, 255),rgb(167, 255, 207));
+    background-image: linear-gradient(rgb(0, 123, 112),rgb(0, 66, 72));
     color: rgb(255, 255, 255);
     background-clip: text;
     -webkit-background-clip: text;
@@ -226,7 +226,7 @@ input[type="submit"]:active {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1001;
-    background-image: linear-gradient(rgb(255, 255, 255),rgb(167, 255, 207));
+    background-image: linear-gradient(rgb(0, 123, 112),rgb(0, 66, 72));
     color: rgb(255, 255, 255);
     background-clip: text;
     -webkit-background-clip: text;
