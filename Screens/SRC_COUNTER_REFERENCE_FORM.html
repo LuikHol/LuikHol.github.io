@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>COUNTER-REFERRAL FORM</title>
+  <link rel="stylesheet" type="text/css" href="../Screens/styles/style_form_counterref.css">
+</head>
+<body>
+
+<form action="../Screens/SRC_PLACE_FOR_SUBMITTING_THE_COUNTER_REFERENCE_DENTAL_REGULATION_CENTER.html" method="get">
+  <fieldset>
+    <legend>Justificativa da Contra-Referencia</legend>
+    <label for="alta">
+      <input type="checkbox" id="alta" name="alta" size="50"/>
+      Alta do Paciente
+    </label>
+
+    <label for="acompanhamento">
+      <input type="checkbox" id="acompanhamento" size="15"/>
+      Acompanhamento na Rede Básica
+    </label>
+
+    <label for="procedimentos-primarios">
+      <input type="checkbox" id="procedimentos-primarios" size="60"/>
+      Realização de Procedimentos Primários
+    </label>
+
+    <label for="procedimentos-secundarios">
+      <input type="checkbox" id="procedimentos-secundarios" size="22"/>
+      Realização de Procedimentos Secundários
+    </label>
+
+    <div class="procedures">
+      <h2 class="subtitle">Procedimentos Realizados no Prestador</h2>
+      <div class="form" min="0" max="100">
+        <textarea class="description" rows="5" placeholder="Descrição do procedimento"></textarea>
+        <textarea class="area" rows="5" placeholder="Dente/Área"></textarea>
+      </div>
+    </div>
+
+    <div class="procedures">
+      <h2 class="subtitle">Procedimentos a serem Realizados na Atenção Básica e Secundária</h2>
+      <div class="form" size="10">
+        <textarea class="description" rows="5" placeholder="Descrição do procedimento"></textarea>
+        <textarea class="area" rows="5" placeholder="Dente/Área"></textarea>
+      </div>
+    </div>
+  </fieldset>
+  <input type="submit" value="Continuar">
+</form>
+<a class="botao-voltar" href="../Screens/SRC_COUNTER-REFERENCE_FORM.html">Voltar</a>
+</body>
+</html>

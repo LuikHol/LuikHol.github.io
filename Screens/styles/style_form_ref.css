@@ -1,0 +1,77 @@
+fieldset:first-of-type {
+  margin-bottom: 20px;
+}
+
+fieldset:not(:first-of-type) {
+  margin-top: 20px;
+}
+
+body {
+  background-color: #252525;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  padding-top: 20px;
+}
+
+form {
+  width: 80%;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+}
+
+legend {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+  width: 96%;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+input[type="submit"],
+input[type="button"].enviar {
+  display: block;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.botao-voltar {
+  display: block;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #610800;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.botao-voltar {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #830f00;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
